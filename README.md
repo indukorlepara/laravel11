@@ -11,3 +11,5 @@ composer require maatwebsite/excel --ignore-platform-reqs
 
 DB::select('SELECT name FROM sqlite_master WHERE type="table"');
 DB::table('users')->get();
+php artisan make:model Post -mcr
+
